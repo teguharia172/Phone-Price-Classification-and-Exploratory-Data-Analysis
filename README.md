@@ -125,6 +125,9 @@ so for the phone company **Primary Camera** or back camera megapixel size should
 
 - We can see that from all the evaluation matrix for this phone classfication, we see that, **SVC after  hyperparameter tuning without scalling has the best accuracy** when it comes to predicting phone price range based on certain features.
 
+![image](https://user-images.githubusercontent.com/57277832/97968669-8e7fdc00-1df1-11eb-861a-1d02a5928b6d.png)
+
+
 
 - We also see that there're some overfitting model, we can see it by looking the the significance difference training score and testing score 
 
@@ -137,5 +140,7 @@ so for the phone company **Primary Camera** or back camera megapixel size should
 
 
 3. Using Different kind of scaler, in this modeling i use a minmax scaller to scale the X train and X test, fot future references using different kind of scaller might have an effect to the model
+
+
 
 </details>
